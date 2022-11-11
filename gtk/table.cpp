@@ -1,3 +1,5 @@
+//g++ table.cpp `pkg-config --libs gtk+-2.0` `pkg-config --cflags gtk+-2.0` rs232.c && ./a.out
+
 #include<gtk/gtk.h>
 #include<iostream>
 #include <stdlib.h>
